@@ -181,6 +181,8 @@ int main()
     cin >> n >> m;
 
     /* Detect A Cycle in a Undirected Graph */
+    
+    /* Na Bujhle ei Link e jabi: https://www.youtube.com/watch?v=SRIVJzucPoU&ab_channel=ApnaCollege */
 
 
 
@@ -218,11 +220,11 @@ int main()
 
     if(cycle)
     {
-        cout << "NO" << endl;
+        cout << "YES" << endl;
     }
     else
     {
-        cout << "YES" << endl;
+        cout << "NO" << endl;
 
     }
 
